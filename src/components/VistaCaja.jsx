@@ -5,7 +5,7 @@ import { dbService } from '../services/dbService';
 import { Venta, Panaderia } from '../models/clases';
 
 const PRODUCTOS_RAPIDOS = [
-  new Panaderia(1, 'Pan x6 (Agua/Dulce)', 1.00, 'bg-amber-100 border-amber-300', true),
+  new Panaderia(1, 'Pan x6 (Sal/Dulce)', 1.00, 'bg-amber-100 border-amber-300', true),
   new Panaderia(2, 'Pan de Leche', 0.25, 'bg-orange-100 border-orange-300', true),
   new Panaderia(3, 'Café Pasado', 1.00, 'bg-stone-200 border-stone-400', true),
   new Panaderia(4, 'Postre (Porción)', 1.50, 'bg-pink-100 border-pink-300', true),
