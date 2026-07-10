@@ -1,8 +1,9 @@
 # Sistema POS "Tía Pan"
 
 **Proyecto Final - Análisis y Diseño de Sistemas**  
-**Estudiante:** Sebastian Aníbal Alvarado Muñoz  
+**Estudiante:** Sebastian Alvarado A.  
 **Correo Institucional:** salvaradom1@est.ups.edu.ec  
+**GitHUB:** sebmrd  
 **Institución:** Universidad Politécnica Salesiana, Sede Cuenca  
 
 ---
