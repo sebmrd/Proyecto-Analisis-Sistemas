@@ -55,5 +55,28 @@ El sistema soporta múltiples usuarios con distintos niveles de acceso[cite: 5] 
 Para correr este proyecto en un entorno de desarrollo local, sigue estos pasos:
 
 1. Clona el repositorio:
-   ```bash
-  git clone [https://github.com/sebas-alvarado-ups/pos-tia-pan-vite-firebase.git](https://github.com/sebmrd/Proyecto-Analisis-Sistemas.git)
+```bash
+git clone [https://github.com/sebas-alvarado-ups/pos-tia-pan-vite-firebase.git](https://github.com/sebmrd/Proyecto-Analisis-Sistemas.git)
+
+2. Navega al directorio del proyecto:
+
+```Bash
+cd tia-pan-pos
+```
+Instala las dependencias:
+
+```Bash
+npm install
+```
+Ejecuta el servidor de desarrollo:
+
+``` Bash
+npm run dev
+```
+Abre tu navegador en http://localhost:5173/.
+
+---
+
+## Respaldo de Base de Datos
+
+En cumplimiento de la rúbrica del proyecto, este repositorio incluye el archivo database-backup.json en la carpeta raíz, el cual contiene la estructura en formato JSON del árbol de datos utilizado en Firebase Realtime Database

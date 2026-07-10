@@ -1,0 +1,76 @@
+{
+  "usuarios": {
+    "admin": {
+      "nombre": "Dueña (Admin)",
+      "pin": "1234",
+      "rol": "Administrador"
+    },
+    "cajero": {
+      "nombre": "Hijo (Cajero)",
+      "pin": "0000",
+      "rol": "Cajero"
+    }
+  },
+  "inventario_tienda": {
+    "-O1a2b3c4d5e6f7g8h9": {
+      "codigo": "78612345",
+      "nombre": "Cola (1 Litro)",
+      "categoria": "Bebidas",
+      "stock": 24,
+      "precio": 1.25
+    },
+    "-O1a2b3c4d5e6f7g8hA": {
+      "codigo": "78612346",
+      "nombre": "Galletas de Chocolate",
+      "categoria": "Snacks",
+      "stock": 15,
+      "precio": 0.80
+    },
+    "-O1a2b3c4d5e6f7g8hB": {
+      "codigo": "78612347",
+      "nombre": "Leche Entera (Litro)",
+      "categoria": "Lácteos",
+      "stock": 10,
+      "precio": 1.10
+    }
+  },
+  "pedidos": {
+    "-P1a2b3c4d5e6f7g8h9": {
+      "cliente": "Doña Rosita",
+      "detalle": "Pastel de chocolate (Cumpleaños)",
+      "fecha": "2026-07-15",
+      "abono": 5.00,
+      "total": 15.00,
+      "estado": "Pendiente"
+    },
+    "-P1a2b3c4d5e6f7g8hA": {
+      "cliente": "Carlos (Vecino)",
+      "detalle": "30 panes de agua para parrillada",
+      "fecha": "2026-07-12",
+      "abono": 0,
+      "total": 5.00,
+      "estado": "Entregado"
+    }
+  },
+  "ventas": {
+    "-V1a2b3c4d5e6f7g8h9": {
+      "cajero": "Dueña (Admin)",
+      "fecha": "10/7/2026, 14:00:00",
+      "total": 2.25,
+      "detalles": [
+        {
+          "id": 1,
+          "nombre": "Pan x6 (Agua/Dulce)",
+          "precio": 1.00,
+          "cantidad": 1
+        },
+        {
+          "id": 6,
+          "nombre": "Cola (1 Litro)",
+          "precio": 1.25,
+          "cantidad": 1
+        }
+      ]
+    }
+  }
+}
