@@ -1,8 +1,9 @@
 # Sistema POS "Tía Pan"
 
 **Proyecto Final - Análisis y Diseño de Sistemas**  
-**Estudiante:** Sebastian Aníbal Alvarado Muñoz  
+**Estudiante:** Sebastian Alvarado A.  
 **Correo Institucional:** salvaradom1@est.ups.edu.ec  
+**GitHUB:** sebmrd  
 **Institución:** Universidad Politécnica Salesiana, Sede Cuenca  
 
 ---
@@ -55,8 +56,10 @@ El sistema soporta múltiples usuarios con distintos niveles de acceso[cite: 5] 
 Para correr este proyecto en un entorno de desarrollo local, sigue estos pasos:
 
 1. Clona el repositorio:
+
 ```bash
-git clone [https://github.com/sebas-alvarado-ups/pos-tia-pan-vite-firebase.git](https://github.com/sebmrd/Proyecto-Analisis-Sistemas.git)
+git clone https://github.com/sebmrd/Proyecto-Analisis-Sistemas.git
+```
 
 2. Navega al directorio del proyecto:
 
